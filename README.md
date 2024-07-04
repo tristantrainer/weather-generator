@@ -41,5 +41,9 @@ Requirements
 7. File name is arbitrary at this point
     - Consideration: File name might be important in the future
 
-Stages
-1. Create domain objects for each Weather Records, 
+Improvements Needed
+1. Move "Configuration" to appsettings in prep for DI and moving solution to an API.
+2. Remove statically called methods, consider adding interfaces and setup DI for instantiating Factory classes.
+3. Move solution to an API to allow access from anywhere.
+4. Consider setting up a job that mimics the hourly delivery of files seen on Live (might not be needed on Test).
+5. Implement more cohesive data linking if it adds value to testing.

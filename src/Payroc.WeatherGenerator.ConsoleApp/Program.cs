@@ -9,7 +9,7 @@ using Payroc.WeatherGenerator.Application.IO;
 
 Console.WriteLine("Hello, World!");
 
-var outputFilePath = @"C:\Users\trist\Desktop\weather-forecast-v2.WIS";
+var outputFilePath = @"** Choose a suitable file path **.WIS";
 
 var informationOptions = new WeatherInformationOptions() 
 {
