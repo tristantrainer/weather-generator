@@ -1,5 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Payroc.WeatherGenerator.Application\Payroc.WeatherGenerator.Application.csproj" />
+    <ProjectReference Include="..\Payroc.WeatherGenerator.Domain\Payroc.WeatherGenerator.Domain.csproj" />
+    <ProjectReference Include="..\Payroc.WeatherGenerator.Core\Payroc.WeatherGenerator.Core.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>

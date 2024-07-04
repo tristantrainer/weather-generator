@@ -6,7 +6,9 @@ The consideration comments under requirements are possible ways to plan for the 
 
 Requirements
 1. Generated files must contain the next 7 days worth of weather predictions.
+    - Assumption: 7 days means starting from today 7 * 24 hour records (last prediction is T-Hour - 1)
     - Consideration: This forecast length might be flexible/vary in the future.
+    - Consideration: Alter start date, generate at configured time.
 2. Generated files must be broken down into records with a record for each hour within forecast window
     - Assumption: There should not be any gaps of hours within this window. 
     - Consideration: This record "rate" might be flexible/vary in the future (every half hour instead).
@@ -38,3 +40,6 @@ Requirements
     - Consideration: File format might differ in the future. 
 7. File name is arbitrary at this point
     - Consideration: File name might be important in the future
+
+Stages
+1. Create domain objects for each Weather Records, 
