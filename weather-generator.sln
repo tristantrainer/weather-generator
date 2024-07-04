@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroc.WeatherGenerator.App
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroc.WeatherGenerator.Domain.Tests", "tests\Payroc.WeatherGenerator.Domain.Tests\Payroc.WeatherGenerator.Domain.Tests.csproj", "{90E11CE2-0364-41CA-BF76-41B22C84AF27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroc.WeatherGenerator.Core", "src\Payroc.WeatherGenerator.Core\Payroc.WeatherGenerator.Core.csproj", "{5306B5C7-8574-4A73-BBEE-A486D46D9468}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{90E11CE2-0364-41CA-BF76-41B22C84AF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90E11CE2-0364-41CA-BF76-41B22C84AF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90E11CE2-0364-41CA-BF76-41B22C84AF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5306B5C7-8574-4A73-BBEE-A486D46D9468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5306B5C7-8574-4A73-BBEE-A486D46D9468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5306B5C7-8574-4A73-BBEE-A486D46D9468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5306B5C7-8574-4A73-BBEE-A486D46D9468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4116044F-4BFC-4360-BB1D-3B38549D8E73} = {DABD21B8-5FC5-4CD3-BE7B-29976127441B}
@@ -53,5 +59,6 @@ Global
 		{4D9EC82A-C055-43A8-BBD2-90E42A9C65BB} = {DABD21B8-5FC5-4CD3-BE7B-29976127441B}
 		{7BD06F6F-3025-4574-B345-C15EDD0DE518} = {A4AB4F8B-BD6A-4B4E-B6B5-C2BC9B4FBFC9}
 		{90E11CE2-0364-41CA-BF76-41B22C84AF27} = {A4AB4F8B-BD6A-4B4E-B6B5-C2BC9B4FBFC9}
+		{5306B5C7-8574-4A73-BBEE-A486D46D9468} = {DABD21B8-5FC5-4CD3-BE7B-29976127441B}
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,6 @@
 In listing assumptions under requirements I have implemented a solution assuming they are correct. However in reality this would be a list of items to check with the stakeholder or domain expert.
 
-The realism comments under each requirement are possible nice to haves. They may or may not be necessary (or need to be configurable) depending on the level of data cleaning/validation in the consumer. 
+The realism comments under each requirement are possible nice to haves. These ideas may or may not be necessary (or need to be configurable) depending on the level of data cleaning/validation in the consumer. 
 
 The consideration comments under requirements are possible ways to plan for the future (Open-Closed principle), things to bare in mind.
 
